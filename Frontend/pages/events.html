@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events - ConcertHub</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="stylesheet" href="../css/cards.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+
+    <nav class="navbar">
+
+        <div class="logo">
+            🎵 ConcertHub
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="history.html">History</a></li>
+            <li><a href="admin.html">Admin</a></li>
+            <li><a href="../index.html">Logout</a></li>
+        </ul>
+
+    </nav>
+
+    <!-- Events Section -->
+
+    <main class="events-section">
+
+        <div class="events-header">
+
+            <h1>Upcoming Events</h1>
+
+            <input
+                type="text"
+                id="searchBox"
+                placeholder="🔍 Search events or artists">
+
+        </div>
+
+        <!-- Events will be loaded here from API -->
+
+        <div id="eventsContainer" class="card-container">
+
+            <p style="text-align:center; width:100%;">
+                Loading events...
+            </p>
+
+        </div>
+
+    </main>
+
+    <!-- Footer -->
+
+    <footer class="footer">
+        <p>© 2026 ConcertHub. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Events API Script -->
+
+   <script src="../js/booking.js"></script>
+<script src="../js/events.js"></script>
+
+</body>
+
+</html>

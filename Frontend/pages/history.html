@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking History - ConcertHub</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="stylesheet" href="../css/cards.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+
+    <nav class="navbar">
+
+        <div class="logo">
+            🎵 ConcertHub
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="events.html">Events</a></li>
+            <li><a href="history.html">History</a></li>
+            <li><a href="admin.html">Admin</a></li>
+            <li><a href="../index.html">Home</a></li>
+        </ul>
+
+    </nav>
+
+    <!-- Booking History Section -->
+
+    <section class="history-section">
+
+        <h1>My Bookings</h1>
+
+        <!-- Dynamic Booking Cards -->
+
+        <div id="historyContainer" class="booking-container">
+
+            <p style="text-align:center;">
+                No bookings found.
+            </p>
+
+        </div>
+
+        <!-- Summary -->
+
+        <div class="summary">
+
+            <div>
+                <h3>Total Bookings</h3>
+                <p id="totalBookings">0</p>
+            </div>
+
+            <div>
+                <h3>Total Amount</h3>
+                <p id="totalAmount">₹0</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+
+    <footer class="footer">
+        <p>© 2026 ConcertHub. All Rights Reserved.</p>
+    </footer>
+
+    <script src="../js/history.js"></script>
+
+</body>
+
+</html>

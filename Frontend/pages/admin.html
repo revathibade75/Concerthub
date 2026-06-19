@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard - ConcertHub</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="stylesheet" href="../css/cards.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+
+    <nav class="navbar">
+
+        <div class="logo">
+            🎵 ConcertHub Dashboard
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="history.html">History</a></li>
+        </ul>
+
+    </nav>
+
+    <!-- Admin Dashboard -->
+
+    <section class="admin-dashboard">
+
+        <!-- Left Side Form -->
+
+        <div class="admin-form-panel">
+
+            <h1>🎤 Event Management</h1>
+
+            <div class="form-container">
+
+                <input type="hidden" id="eventId">
+
+                <input
+                    type="text"
+                    id="eventName"
+                    placeholder="Event Name">
+
+                <input
+                    type="text"
+                    id="artist"
+                    placeholder="Artist Name">
+
+                <input
+                    type="datetime-local"
+                    id="date">
+
+                <input
+                    type="text"
+                    id="venue"
+                    placeholder="Venue">
+
+                <input
+                    type="number"
+                    id="price"
+                    placeholder="Ticket Price">
+
+                <button onclick="addEvent()">
+                    Add Event
+                </button>
+
+                <button onclick="updateEvent()">
+                    Update Event
+                </button>
+
+            </div>
+
+        </div>
+
+        <!-- Right Side Events -->
+
+        <div class="admin-events-panel">
+
+            <h2>📅 All Events</h2>
+
+            <div
+                id="adminEventsContainer"
+                class="card-container">
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+
+    <footer class="footer">
+        <p>© 2026 ConcertHub</p>
+    </footer>
+
+    <!-- JS -->
+
+    <script src="../js/admin.js"></script>
+
+</body>
+
+</html>
