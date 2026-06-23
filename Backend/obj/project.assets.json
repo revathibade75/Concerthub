@@ -2498,19 +2498,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\admin\\.nuget\\packages\\": {}
+    "C:\\Users\\revat\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\ConcertEventManagementSystem\\Backend\\Backend.csproj",
+      "projectUniqueName": "d:\\.net\\concerthub\\Backend\\Backend.csproj",
       "projectName": "Backend",
-      "projectPath": "d:\\ConcertEventManagementSystem\\Backend\\Backend.csproj",
-      "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "d:\\ConcertEventManagementSystem\\Backend\\obj\\",
+      "projectPath": "d:\\.net\\concerthub\\Backend\\Backend.csproj",
+      "packagesPath": "C:\\Users\\revat\\.nuget\\packages\\",
+      "outputPath": "d:\\.net\\concerthub\\Backend\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\revat\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net10.0"
@@ -2590,7 +2590,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.AspNetCore": "(,10.0.32767]",
           "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",
